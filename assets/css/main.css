@@ -1,0 +1,61 @@
+body {
+    /* background-image: url("/background_sky.png");  */
+    background-image: url('/images/background_sky.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .form_center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #ff791a;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #65656a;
+  }
+  .input_name {
+    height: 2.8rem;
+    font-family: Nunito;
+    font-size: 24px;
+    color: #c9c9c9;
+    font-weight: 600;
+  }
+  .input_field_deco {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #ff791a;
+    background-color: #333;
+  }
+  input{
+    height: 2.2rem;
+    font-size: 14px;
+    color: #c9c9c9;
+    background: none;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: 0;
+    flex: 1;
+    padding: 0 1rem;
+    outline: none;
+  }
+  .title_txt{
+    color: #ff791a;
+    font-size: 3rem;
+    font-weight: 700;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .submit_btn{
+    color: lightgray;
+    width: max-content;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #ff791a;
+    box-shadow: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+  }

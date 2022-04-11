@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link type="text/css" href="./login.css" rel="stylesheet"> -->
+    <title>Example Login Form</title>
+    <link type="text/css" rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <!-- <form class="form_center" > -->
+    <!-- user input-->
+    <!-- <script>
+      function validateUser() {
+        console.log("inside function");
+        let username = document.querySelector("#username");
+        let password = document.querySelector("#password");
+        let encypwd = getEncryptObj_msw().encrypt(password);
+        // alert(`Username: ${username} & Password: ${encypwd}`);
+      }
+    </script> -->
+    <div class="form_center">
+      <div class="title_txt" style="margin-bottom: 1rem">Sonicwall</div>
+      <span class="input_name"> Username: </span><br />
+      <div class="input_field_deco" style="margin-bottom: 1rem">
+        <input
+          id="username"
+          type="text"
+          name="username"
+          placeholder="Username"
+          required
+        /><br /><br />
+      </div>
+      <span class="input_name"> Password: </span>
+      <br />
+      <div class="input_field_deco">
+        <input
+          id="password"
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+      </div>
+      <!-- submit button -->
+      <div style="margin-top: 1rem; text-align: center">
+        <button class="submit_btn" onclick="validateUser()">Login</button>
+      </div>
+    </div>
+    <!-- </form> -->
+    <script src="./login.js"></script>
+  </body>
+</html>
